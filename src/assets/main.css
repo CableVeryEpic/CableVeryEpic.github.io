@@ -18,70 +18,26 @@ html {
     animation: BackgroundScroll 20s ease infinite;
 }
 
-
 body {
-  background-image: url("carbon-fibre.png");
+
 }
 
-header a {
-  text-align: center; 
-  display: inline-block;
-  font-size: 24px;
-  margin: 10px 40px;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  color: black;
-  font-weight: 400;
-  transition: 0.5s;
+.showcase-container {
+  margin: 40px 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
-header a:hover {
-  color: rgb(60, 60, 60);
-  border-color: rgb(60, 60, 60);
+.showcase-page {
+  display: flex;
+  gap: 20px;
 }
 
-.header-right {
-  position: absolute;
-  top: 30px;
-  right: 0;
-  background: linear-gradient(270deg, rgba(226, 226, 226, 0.8) 97%, rgba(0,0,0,0));
-  box-shadow: 7px 3px 3px 1px rgb(50, 50, 50);
-}
-
-.header-left {
-  position: absolute;
-  top: 30px;
-  left: 0;
-  background: linear-gradient(90deg, rgba(226, 226, 226, 0.8) 97%, rgba(0,0,0,0));
-  box-shadow: -7px 3px 3px 1px rgb(50, 50, 50);
-}
-
-.content {
-  
-}
-
-@-webkit-keyframes BackgroundScroll {
-    0%{background-position:0% 14%}
-    50%{background-position:100% 87%}
-    100%{background-position:0% 14%}
-}
-@-moz-keyframes BackgroundScroll {
-    0%{background-position:0% 14%}
-    50%{background-position:100% 87%}
-    100%{background-position:0% 14%}
-}
-@keyframes BackgroundScroll {
-    0%{background-position:0% 14%}
-    50%{background-position:100% 87%}
-    100%{background-position:0% 14%}
-}
-
-@keyframes LeftSlide {
-  0%{transform: translateX(-100%);}
-  100%{transform: translateX(0);}
-}
-
-@keyframes RightSlide {
-  0%{transform: translateX(100%);}
-  100%{transform: translateX(0);}
+iframe {
+  border: none;
 }
