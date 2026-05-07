@@ -38,6 +38,12 @@ body {
   gap: 20px;
 }
 
+.showcase-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 iframe {
   border: none;
 }

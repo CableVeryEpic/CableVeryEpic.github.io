@@ -14,10 +14,38 @@ function decrementPage() {
 
 <template>
     <header>
-
+        <h1>Welcome to my portfolio!</h1>
+        <p>This is a collection of various projects I've worked on and mostly completed. Some are from uni, some are personal projects.</p>
     </header>
 
     <main>
+        <div class="showcase-container">
+            <div class="showcase-page">
+                <div class="showcase-right">
+                    <h3>Tools</h3>
+                    <p>Here are some tools I've made, click on them to learn more!</p>
+                </div>
+                <div class="showcase-left">
+                    <a href="https://github.com/CableVeryEpic/KIT205_466399" target="_blank">
+                        <img src="https://opengraph.githubassets.com/astar/CableVeryEpic/KIT205_466399" alt="Tool Image" width="50%">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="showcase-container">
+            <div class="showcase-page">
+                <div class="showcase-right">
+                    <h3>Games</h3>
+                    <p>Here are some games I've made, click on them to play!</p>
+                </div>
+                <div class="showcase-left">
+                    <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/2641546"><a href="https://cablel.itch.io/grave-mistakes">Grave Mistakes by Cablel</a></iframe>
+                    <iframe height="167" frameborder="0" width="552" src="https://itch.io/embed/2759969"><a href="https://cablel.itch.io/desert-golf">Desert Golf by Cablel</a></iframe>
+                </div>
+                
+            </div>
+        </div>
         <div class="showcase-container">
             <div class="showcase-page">
                 <div class="showcase-details">
